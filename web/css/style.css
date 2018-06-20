@@ -1,0 +1,122 @@
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #394A8A;
+    font-size: 12px;
+}
+
+h2 {
+    color: #394A8A;
+}
+
+input {
+    color: #394A8A;
+    font-weight: bold;
+}
+
+select {
+    color: #394A8A;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.tbl {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 100%;
+}
+.tbl tr:nth-child(odd) {
+    background: #E8EAF4;
+    color : #000000;
+}
+.tbl tr:nth-child(odd) a {
+    color : #000000;
+}
+.tbl tr:nth-child(even) {
+    background: #FAFAFA;
+}
+.tbl tr:nth-child(even) a {
+    color: #394A8A;
+}
+.tbl th {
+    color: white;
+    background: #015e7f;
+}
+
+div#nav {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 245px;
+    color: black;
+    font-size: 20px;
+    margin: 1px;
+    overflow: hidden;
+
+}
+div#nav ul {
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+div#nav ul li {
+    float: left;
+    width: 245px;
+    text-align: center;
+    padding: 1px;
+    list-style-type: none;
+}
+div#nav ul li a {
+    display: block;
+    line-height: 40px;
+    background-color: white;
+    color : #394A8A;
+    text-decoration: none;
+    margin : 1px;
+}
+div#nav ul li a:hover {
+    color: #FFFFFF;
+    background-color: #015e7f;
+}
+
+.header {
+    font-size: 11px;
+    width: auto;
+    color : #394A8A;
+}
+
+.form_tabla {
+    background-color: #E8EAF4;
+    width: 600px;
+}
+
+.form_tabla th {
+    background-color: #015e7f;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -150px;
+}
+
+.menu {
+    width: 250px;
+    float: left;
+    height: 100%;
+    margin: 1px;
+}
+.content {
+    width: 500px;
+    float: left;
+    height: 100%;
+    padding: 1px 5px;
+}
+#contenedor {
+     width: 800px;
+     margin: 0 auto;
+}
